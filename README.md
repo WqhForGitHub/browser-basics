@@ -1,6 +1,6 @@
 
 # 事件循环 Event Loop
-事件循环（Event Loop）是 JavaScript 实现异步非阻塞的关键机制。它不断地循环检查任务队列，并决定下一步执行哪个任务。理解宏任务（macrotask）和微任务（microtask）在事件循环中的执行顺序对于编写高性能的 JavaScript 代码至关重要。
+**`事件循环（Event Loop）是 JavaScript 实现异步非阻塞的关键机制。它不断地循环检查任务队列，并决定下一步执行哪个任务。理解宏任务（macrotask）和微任务（microtask）在事件循环中的执行顺序对于编写高性能的 JavaScript 代码至关重要。`** 
 
 ## 宏任务
 **`宏任务： 宏任务是由宿主环境（例如浏览器或 Node.js）发起的任务。常见的宏任务包括：`**
